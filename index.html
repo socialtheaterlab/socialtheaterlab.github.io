@@ -1,0 +1,98 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700">
+  </head>
+  <body>
+    <div class="test">
+    <div class="siteWrapper">
+      <header class="header">
+        <div id="header-bar" class="header-bar-wrapper">
+          <div class=header-title-nav-wrapper>
+            <div onClick=goToHome() class="header-title">
+              <div class=header-title-text>
+                Social Theater Lab
+              </div>
+            </div>
+            <div class="header-nav-wrapper">
+              <div class="header-nav-list">
+                <div onClick=goToAbout() class="header-nav-item">
+                  <div class="header-nav-text">about</div>
+                </div>
+                <div onClick=goToContact() class="header-nav-item">
+                  <div class="header-nav-text">contact</div>
+                </div>
+              </div>
+              <div class="header-burger">
+                 <button id="burger-button" class="header-burger-btn" >
+                   <div class="burger-box">
+                     <div class="burger-inner">
+                      <div class="top-bun burger-transform"></div>
+                      <div class="bottom-bun burger-transform"></div>
+                     </div>
+                   </div>
+                 </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="header-menu" class="header-menu header-menu-transform">
+          <div class="header-menu-content">
+            <div onClick=clearAndGoToAbout() class="header-menu-nav-item">
+              about
+            </div>
+            <div onClick=clearAndGoToContact() class="header-menu-nav-item">
+              contact
+            </div>
+          </div>
+        </div>
+      </header>
+      <main class="container">
+        <article class="sections">
+          <section id="home" class="page-section section-1">
+            <div class="content-wrapper">
+              <div class="content">
+                <h1>Check back soon for more information about Social Theater Lab.</h1>
+              </div>
+            </div>
+          </section>
+          <section id="about" class="page-section section-2">
+            <div class="content-wrapper">
+              <div class="content">
+                <h3>
+                Social Theater Lab is a research and development organization with a goal to study practices of theatergoing and develop work that motivates novel relationships between theater and its audiences.
+                </h3>
+              </div>
+            </div>
+          </section>
+          <section id="contact" class="page-section section-3">
+            <div class="content-wrapper">
+              <div class="content">
+                <div class="contact-row">
+                  <div class="contact-block">
+                    <h5 class="contact-label">
+                      general inquiries
+                    </h5>
+                    <h4 class="contact-addr">
+                      info@socialtheaterlab.org
+                    </h4>
+                  </div>
+                  <div class="contact-block">
+                    <h5 class="contact-label">
+                      submissions
+                    </h5>
+                    <h4 class="contact-addr">
+                      submissions@socialtheaterlab.org
+                    </h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </article>
+      </main>
+    </div>
+    </div>
+  </body>
+</html>
